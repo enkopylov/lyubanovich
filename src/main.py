@@ -9,5 +9,10 @@ def top():
     return 'Top here'
 
 
+@app.get('/echo/{thing}')
+def echo(thing):
+    return f'echoing {thing}'
+
+
 if __name__ == '__main__':
     uvicorn.run('main:app', reload=True)
