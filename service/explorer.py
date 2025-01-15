@@ -1,4 +1,5 @@
-import fake.explorer as data
+import data.explorer as data
+
 from model.explorer import Explorer
 
 

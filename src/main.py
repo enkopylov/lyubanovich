@@ -3,6 +3,7 @@ import uvicorn
 
 from web import explorer, creature
 
+
 app = FastAPI()
 
 app.include_router(explorer.router)
