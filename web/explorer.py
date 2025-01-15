@@ -6,7 +6,7 @@ import data.explorer as service
 from errors import Missing, Duplicate
 from model.explorer import Explorer
 
-router = APIRouter(prefix='/explorer')
+router = APIRouter(tags=['Explorer'], prefix='/explorer')
 
 
 @router.get('')

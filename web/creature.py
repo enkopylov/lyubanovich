@@ -6,7 +6,7 @@ import data.creature as service
 from errors import Missing, Duplicate
 from model.creature import Creature
 
-router = APIRouter(prefix='/creature')
+router = APIRouter(tags=['Creature'], prefix='/creature')
 
 
 @router.get('')
